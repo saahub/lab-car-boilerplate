@@ -7,10 +7,10 @@
 
 }
 
-#troncito  {
-	width: 30em;
+#troncito {
+	width: 26em;
 	height: 30em;
-	margin-left:314px;
+	margin-left: em;
 	background-color: #f7b617;
 }
 
@@ -19,7 +19,7 @@
 }
 .yellow {
 	width: 100%;
-	height: 40em;
+	height: 50em;
 	padding-top: 5.25em;
 	padding-left: 6.25em;
 	background-color: #f7b617;
@@ -95,6 +95,11 @@ footer{
 	color:#fff;
 }
 
+.social {
+	display: inline-flex;
+	padding-top: 15em;
+}
+
 .text , .txt , .icons ,.social {
 	list-style: none;
 }
@@ -106,4 +111,36 @@ footer{
 
 .fa {
 	color: #fff;
+	padding: 10px;
+
+}
+
+/*modal*/
+
+.panel-footer {
+  padding: 1px 15px;
+  color: #A0A0A0 ;
+}
+
+.profile-img {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.log-in {
+  margin-left: 165px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+#navPrincipal{	
+
+	float: right;
 }
