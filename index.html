@@ -26,7 +26,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <div id="navPrincipal">
       <ul class="nav navbar-nav">
-        <li></li>
+<!--agrego modal al boton viaja-->
         <li class="active"><a type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Viaja<span class="sr-only">(current)</span></a></li>
         <li><a href="#">Conduce</a></li>
         <li><a href="#">Inicia sesión</a></li>
@@ -37,11 +37,13 @@
 </nav>
 <div class="image">
 <div class="col-xs-12">
+<!--para desplazar columna hacia la derecha-->
  <div style="margin-top: 10em; background-color: #f7b617;" class="col-xs-9 col-xs-offset-3 col-lg-4 col-lg-offset-8" > 
     <h3 style="margin-left: 35px">Disfruta del viaje</h3>
     <h3 style="margin-left: 35px">Eres dueño de tu tiempo</h3>
     <br>
     <p style="margin-left: 35px">Viaja con Lav>car</p>
+<!--pagrego modal al boton registrate-->
     <p style="margin-left: 35px"><a type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">REGISTRATE</a></p>
     <p style="margin-left: 65px">o bien</p>
     <button style="margin-left: 35px; margin-bottom: 1em" type="button" class="btn btn-sm btn-default ">Conviértete en un conductor</button>
@@ -69,6 +71,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <!-- dentro del modal -->
           <table width="100%">
             <thead>
               <tr>
@@ -124,7 +127,7 @@
     </div>
   </div>
   
-<!--//////////////////////////////puta la wuea
+<!--/////////////////////////////
 -->
 <!--FINAL MODAL-->
 
@@ -134,11 +137,14 @@
 <!--Imagen de celular-->
 <div class="row">
   <div class="col-lg-12">
-    <div class="yellow" style="border: 1px black solid">
+    <div class="yellow">
+<!--para que el borde se vea a la izquerda pull en extra pequeño -->
       <div style="border: 1px solid #fff; margin-bottom: 1em" class="col-xs-11 col-xs-pull-1">
+<!--imagen celular en grande se vea de la mitad 6 en extra pequeño completa 12 -->
         <div class="col-lg-6 col-xs-12">
           <img class="img-responsive" id="iphone" src="assets/images/iPhone6Plus.png" alt="ip">
         </div>
+        <!-- con hidden-xs en tamaño extra pequeno para que se esconda -->
         <div class="col-lg-6 hidden-xs">
           <h3>Descarga la nueva app</h3>
           <p class="centrar">
@@ -168,8 +174,8 @@
 </div-->
 
   <div class="row-drive">
-    <div class="col-lg-4 col-lg-8 col-xs-12" id="transparent">
-
+<!--transparencia en grande hacia la derecha en extra pequeño completo-->
+    <div class="col-lg-4 col-lg-offset-8 col-xs-12" id="transparent">
     <h6>Conduce cuando quieras</h6>
       <p>Labcar es una opción flexible 
         para alcazar tu metas finacieras</p>
@@ -199,13 +205,11 @@
     <button class="btn btn-default">Trazar tu Ruta</button>
   </form>
 </div>
-  <div class="map">
  <div class="col-lg-5 col-md-4 col-sm-12 col-xs-12">
   <div class="map">
   <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13320.941608687654!2d-70.63951309999999!3d-33.41710665!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512489159852" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen></iframe>
 </div>
  </div>
-  </div>
    </div>
     </div>
 </section>
